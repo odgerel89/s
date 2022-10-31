@@ -1,77 +1,123 @@
 body {
-  
-    background-color: #0e6dc7;
-    margin: 0 15%;
+    background-color: #ffffff;
     font-family: sans-serif;
-  }
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg {
+  background-color: #52533f;
+  line-height: 1.5em;
+  padding: 35px;
+}
+.rivers-card, .camping-card, .rapids-card {
+  margin: 200px 0;
+}
+.book, .join {
+  background-color: #c29b77;
+  line-height: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
+  margin-left: 740px; 
+}
+.card-img {
+  border: 10px solid ;
+  margin-left: 350px;
+}
+main section img {
+  box-sizing: border-box;
+}
+.msg p {
+  background-color: #52533f;
+  line-height: 8em;
+  padding-bottom: 15px;
+}
 header {
-    background-color:rgba(150, 201, 248, 0.7);
+  background-color:#52533f;
 }
 footer {
-  background-color:rgba(150, 201, 248, 0.7);
+  background-color:#52533f;
+  padding: 25px 50px;
+  margin-top: 200px;
+}
+footer .social img {
+  padding-top: 15px;
+  
 }
 section {
-  background-color:rgba(150, 201, 248, 0.7);
+  background-color:#ffffff;
 }
 nav a:hover {
-    background-color: rgb(102, 245, 197);
+    background-color: rgb(255, 255, 255);
     color: #000000;
   }
-
-  
 img {
-    width: 40%;
-
+    width: 50%;
   }  
 #hero-img {
     width: 1600px;
 }
+#logo_link {
+  padding-top: 5px;
+}
 .icon {
-    width: 120px;
+  width: 120px;
+  padding-top: 10px;
+  margin-right: 200px;
 }
 .logo {
   width: 120px;
+  padding-bottom: 30px;
 }
- 
 footer img {
   width: 5%;
-
 }
 footer p {
   font-size: 1.2em;
+  color: #c29b77;
 }  
 footer p a:hover {
+  color: #c29b77;
   text-decoration: none;
-
 }   
-  nav a {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 150%;
-    color: #571616;
-    text-decoration: none;
-  }
+nav a {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 150%;
+  color: #fcfbfb;
+  text-decoration: none;
+  padding: 35px;
+}
   h1 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 180%;
-    color: #000000;
+    color: #c29b77;
   }
   h2 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 150%;
-    color: #ffffff;
+    color: #000000;
+    margin: 0;
+    
   }
   h3 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 150%;
-    color: #ffffff;
+    color: #000000;
   }
   h4 {
     text-align: center;
@@ -80,7 +126,11 @@ footer p a:hover {
     font-size: 150%;
     color: #ffffff;
   }
-
+section p {
+  color: #ffffff; 
+  font-size: 70%;
+  
+}
  #content{
   max-width:1600px;
   margin: 0 auto;
