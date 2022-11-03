@@ -1,149 +1,239 @@
 .content1 {
-  /* This is the parent of the activity 1 boxes. */
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 300px 300px
+
+}
+.grid {
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  border: #c619d6;
 }
 .red1 { 
-width: 100px; 
+width: 100%; 
 height: 100px; 
 background-color: red; 
+grid-column: 1 / 3;
+align-self: center;
+justify-self: center;
 } 
 .green1 {
-width: 100px; 
-height: 100px; 
+width: 200px; 
+height: 200px; 
 background-color: green; 
+align-self: center;
+justify-self: center;
 } 
 .yellow1 {
-width: 100px; 
-height: 100px; 
+width: 200px; 
+height: 200px; 
 background-color: gold; 
+align-self: center;
+justify-self: center;
 } 
 .blue1 {
-width: 100px; 
+width: 100%; 
 height: 100px; 
 background-color: blue; 
+grid-column: 1 / 3;
+align-self: center;
+justify-self: center;
 } 
 /* Activity 2 styles */ 
 .content2 {
-  /* This is the parent of the activity 2 boxes. */
+  display: grid;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px;
 }
+.grid {
+  justify-content: start;
+  justify-items: center;
+  align-content: center;
+  align-items: center;
+  }
 .red2 {
+grid-column: 1 / 4;
+grid-row: 1 / 4;
 width: 100px; 
 height: 100px; 
 background-color: red; 
 } 
 .green2 { 
+grid-column: 2 / 5;
+grid-row: 2 / 5;
 width: 100px; 
 height: 100px; 
 background-color: green; 
 } 
 .yellow2 {
+grid-column: 3 / 5;
+grid-row: 3 / 5;
 width: 100px; 
 height: 100px; 
 background-color: gold; 
 } 
 .blue2 {
+grid-column: 4 / 5;
+grid-row: 4 / 5;
 width: 100px; 
 height: 100px; 
 background-color: blue; 
 } 
 /* Activity 3 styles */ 
 .content3 {
-  /* This is the parent of the activity 3 boxes. */
+  display: grid;
+  grid-template-columns: 350px 350px
 }
-.red3 {
-width: 100px; 
+.grid {
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+}
+.red3 { 
+width: 100%; 
 height: 100px; 
 background-color: red; 
+grid-column: 1 / 3;
+align-self: center;
+justify-self: center;
 } 
 .green3 {
-width: 100px; 
-height: 100px; 
-background-color: green;
+width: 300px; 
+height: 200px; 
+background-color: green; 
+align-self: center;
+justify-self: start;
 } 
 .yellow3 {
-width: 100px; 
-height: 100px; 
+width: 300px; 
+height: 200px; 
 background-color: gold; 
+align-self: center;
+justify-self: end;
 } 
 .blue3 {
-width: 100px;
+width: 100%; 
 height: 100px; 
 background-color: blue; 
+grid-column: 1 / 3;
+align-self: center;
+justify-self: center;
 } 
 /* Activity 4 styles */ 
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
+  display: grid;
+  grid-template-columns: 300px 300px
 }
 .red4 {
-width: 100px; 
-height: 100px; 
+grid-column: 1 / 2;
+grid-row: 1 / 3;
+width: 300px; 
+height: 400px; 
 background-color: red; 
+align-self: center;
+justify-self: center;
 } 
 .green4 {
-width: 100px; 
-height: 100px; 
+grid-column: 2 / 2;
+grid-row: 1 / 3;
+width: 300px; 
+height: 133px; 
 background-color: green; 
+align-self: start;
+justify-self: center;
 } 
 .yellow4 {
-width: 100px; 
-height: 100px; 
+grid-column: 2 / 2;
+grid-row: 1 / 3;
+width: 300px; 
+height: 134px; 
 background-color: gold; 
+align-self: center;
+justify-self: center;
 } 
 .blue4 {
-width: 100px; 
-height: 100px; 
+grid-column: 2 / 2;
+grid-row: 1 / 3;
+width: 300px; 
+height: 133px; 
 background-color: blue; 
+align-self: end;
+justify-self: center;
 } 
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
    height: 400px;
+   width: 550px;
+   font-size: 12px;
 }
 .red5 { 
-width: 100px; 
+width: 100%; 
 height: 100px; 
 background-color: red; 
 } 
 .green5 { 
-width: 100px; 
-height: 100px; 
+width: 150px; 
+height: 150px; 
 background-color: green; 
-
+padding: 0 10px 0 0;
+float:left
 } 
 .yellow5 {
-width: 100px; 
-height: 100px; 
-background-color: gold; 
 
+width: 100%; 
+height: 210px; 
+background-color: gold; 
+border: 20px;
+overflow: both
 } 
 .blue5 {
-width: 100px; 
+width: 100%; 
 height: 100px; 
 background-color: blue; 
 } 
 /* Activity 6 styles */ 
 .content6 {
   /* This is the parent of the activity 6 boxes. */
+position: relative;
 }
 .red6 {
-width: 100px; 
+width: 200px; 
 height: 100px; 
 background-color: red; 
+
 } 
 .green6 {
+position: relative;
+top: 100px;
 width: 100px; 
 height: 100px; 
 background-color: green; 
+z-index: 1;
+
 } 
 .yellow6 {
+position: relative;
+left: 200px;
+bottom: 100px;
 width: 100px; 
-height: 100px; 
+height: 200px; 
 background-color: gold; 
+z-index: 1;
 } 
 .blue6 {
-width: 100px; 
-height: 100px; 
+position: relative;
+bottom: 350px;
+left: 50px;
+width: 200px; 
+height: 200px; 
 background-color: blue; 
+
 } 
 
 
