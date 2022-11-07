@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Abyssinica+SIL&family+raleway&display+swap);
 body {
     background-color: #ffffff;
     font-family: sans-serif;
@@ -6,7 +7,7 @@ body {
     padding: 0;
 }
 .home-title {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-family: 'Abyssinica SIL', Verdana, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -29,7 +30,7 @@ nav {
 nav a {
   text-align: center;
   align-self: center;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Raleway, Verdana, sans-serif;
   font-weight: normal;
   font-size: 150%;
   color: #fcfbfb;
@@ -61,7 +62,7 @@ nav a:hover {
   margin-top: 200px;
 }
 #hero-img {
-  width: 1600px;
+  width: 100%;
 }
 #logo_link {
   padding-top: 15px;
@@ -83,6 +84,7 @@ nav a:hover {
   padding-bottom: 15px;
 }
 .book, .join {
+  font-family: Raleway, Verdana, sans-serif;
   width: 150px;
   display: grid;
   justify-items: center;
@@ -108,8 +110,7 @@ nav a:hover {
   border: 10px solid #d9c2a3;
   transition: transform .5s;
   box-shadow: 5px 5px 10px #6f7364;
-  width: 300px;
-  height: 300px;
+  width: 100%;
   align-content: center;
 }
 .card-img:hover {
@@ -178,14 +179,14 @@ footer p a:hover {
   h1 {
     padding-top: 0px;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Raleway, Verdana, sans-serif;
     font-weight: bold;
     font-size: 50px;
     color: #c29b77;
   }
   h2 {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Raleway, Verdana, sans-serif;
     font-weight: bold;
     font-size: 150%;
     color: #020202;
@@ -193,7 +194,7 @@ footer p a:hover {
     }
   h3 {
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Raleway, Verdana, sans-serif;
     font-weight: bold;
     font-size: 150%;
     color: #ffffff;
@@ -201,7 +202,7 @@ footer p a:hover {
     }
   h4 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Raleway, Verdana, sans-serif;
     font-weight: bold;
     font-size: 150%;
     color: #ffffff;
