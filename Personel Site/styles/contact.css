@@ -126,15 +126,7 @@ nav a:hover {
   color: #000000;
   background-color: #ffffff;
 }
-.home-img {
-  display: grid;
-  grid-template-columns: 500px 500px;
-  border: 10px solid #d9c2a3;
-  transition: transform .5s;
-  box-shadow: 5px 5px 10px #6f7364;
-  width: 100%;
-  align-content: center;
-}
+
 .sitemap {
   display: grid;
   justify-content: center;
