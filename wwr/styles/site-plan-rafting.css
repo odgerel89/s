@@ -57,8 +57,8 @@ hr {
 header {
   padding: 1em;
   text-align: center;
-  color: var(--paragraph-color-on-color);
-  background-color: var(--paragraph-background-color);
+  color: #396E94;
+  background-color: #8BC8FF;
 }
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
@@ -106,6 +106,7 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
+  justify-content: space-around;
 }
 nav a {
   padding:1em;
@@ -117,8 +118,8 @@ nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: rgb(37, 33, 33);
+  background-color: #cacaca;
 }
 .sitemap {
   display: grid;
