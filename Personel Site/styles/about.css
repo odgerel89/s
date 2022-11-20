@@ -217,15 +217,12 @@ footer p a:hover {
 }   
 h1 {
   font-family: "Quicksand", Verdana, sans-serif;
-  font-size: 4em;
+  font-size: 2em;
   margin-top: 40px;
   text-align: center;
   padding-top: 0px;
   font-weight: bold;
   color: #c29b77;
-  background: linear-gradient(450deg,#0a7cda, #ffee00, #ff0055);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 h2 {
   text-align: center;
