@@ -46,9 +46,9 @@ nav a:hover {
   z-index: -1;
   }
 #hero-msg {
-  grid-column: 1/3;
+  grid-column: 2/3;
   grid-row: 1/2;
-  margin-top: 400px;
+  margin-top: 200px;
 }
 #hero-img {
   width: 100%;
@@ -63,136 +63,11 @@ nav a:hover {
   border-radius: 0px;
   margin-bottom: 0px;
 }
-.book {
-  font-family: 'Signika', Verdana, sans-serif;
-  width: 150px;
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  background-color: #1d7eda;
-  padding: 15px 30px;
-  margin-top: 50px;
-  margin: 0 auto; 
-  border-radius: 10px;
-  color: #000000;
-  text-decoration: none;
-  transform: translate(0);
-  cursor: pointer;
-  overflow: hidden;
- }
- .book:hover {
-  transform: scale(1.2);
-  background-color: #fcf266;
- }
- .book::before {
-  content:"";
-  position: absolute;
-  background: #088a1e;
-  width: 8px;
-  top: 0;
-  bottom: 0;
-  left: -32px;
-  transform: rotate(-16deg);
-  filter: blur(6px);
- }
- .book:hover::before{
-  left: calc(100% + 32px);
-  transition: 0.75s;
- }
-.main {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-.home-grid {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: 1fr 1fr
-}
-.grid {
-  justify-content: center;
-  align-content: center;
-  justify-items: center;
-  align-items: center;
-  border: #c619d6;
-}
-main p {   
-  width: 1200px;
-  border: 1px solid #d9c2a3;
-
-  background-color: #ffffff41;
-  color: #000000;
-  padding: 16px;
-  transition: 0.6s;
-  transform: translate(0);
-  font-weight: 200;
-  overflow: hidden;
-  margin: 0;
-}
-main p:hover {
-  color: #ffffff;
-}
-
-main p::before {
-  content: "";
-  position: absolute;
-  top: -295px;
-  left: -295px;
-  z-index: -1;
-  background: linear-gradient(to right, #3bd9d9, #36a6bf);
-  border-radius: 100%;
-  width: 700px;
-  height: 700px;
-  transition: 0.8s;
-}
-main p:hover::before {
-  transform: scale(4.5);
-}
-
-.main-img {
-  border: #000000;
-  grid-template-columns: auto;
-  border: 1px solid #d9c2a3;
-  width: 500px;
-  height: 500px;
-  align-content: center;
-
-}
-.main-card {
-  grid-column: 6/7;
-  grid-row: 1;
-}
-.card-img {
-  width: 500px;
-  height: 380px;
-  align-content: center;
-}
-.card-img:hover {
-  opacity: .8;
-  transform: scale(1.1);
-}
-.lake-card {
-  margin: 400px 0;
-  grid-column: 1/4;
-  grid-row: 3;
-}
-.gobi-card {
-  margin: 400px 0;
-  grid-column: 5/8;
-  grid-row: 3;
-}
-#background {
-  width: 100%;
-  height: 500px;
-  grid-column: 1/8;
-  grid-row: 4;
-  background-color: #b8e9ff;
-}
-
 footer {
   width: 100%;
   background-color:#6f7364;
   padding: 25px 50px;
-  margin-top: 200px;
+  margin-top: 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -206,7 +81,6 @@ footer img {
 footer img:hover {
   transform: scale(1.2);
 }  
-
 footer p {
   font-size: 1.5em;
   color: #c29b77;
@@ -242,6 +116,7 @@ h3 {
   font-size: 150%;
   color: #ffffff;
   margin: 0;
+  padding-top: 100px;
 }
 h4 {
   text-align: center;

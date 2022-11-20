@@ -101,7 +101,7 @@ nav a:hover {
  }
 .main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .home-grid {
   display: grid;
@@ -148,18 +148,23 @@ main p:hover::before {
   transform: scale(4.5);
 }
 
-.main-img {
+.main-card {
   border: #000000;
   grid-template-columns: auto;
   border: 1px solid #d9c2a3;
-  width: 500px;
-  height: 500px;
+  width: 800px;
+  height: 600px;
   align-content: center;
 
 }
-.main-card {
-  grid-column: 6/7;
+.main-img {
+  grid-column: 1/4;
   grid-row: 1;
+}
+.main-card {
+  border: 1px solid #d9c2a3;
+  width: 800px;
+  height: 600px;
 }
 .card-img {
   width: 500px;
@@ -171,14 +176,14 @@ main p:hover::before {
   transform: scale(1.1);
 }
 .lake-card {
-  margin: 400px 0;
+  margin: 200px 0;
   grid-column: 1/4;
-  grid-row: 3;
+  grid-row: 2/3;
 }
 .gobi-card {
-  margin: 400px 0;
+  margin: 200px 0;
   grid-column: 5/8;
-  grid-row: 3;
+  grid-row: 2/3;
 }
 #background {
   width: 100%;
