@@ -258,6 +258,9 @@ nav a:hover {
   width: 100%;
   align-content: center;
 }
+.wireframe-img {
+  width: 450px;
+}
 .sitemap {
   display: grid;
   justify-content: center;
