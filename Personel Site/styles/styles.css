@@ -131,8 +131,7 @@ main {
 .main-img {
   margin: 20px;
   grid-column: 5/8;
-  grid-row: 1;
-  
+  grid-row: 1; 
 
 }
 .main-card {
@@ -172,6 +171,18 @@ main {
 .wireframe-img {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #45011a;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: linear-gradient(45deg, #8df3bb, #868eff);
 }
 footer {
   width: 97.5%;
