@@ -249,7 +249,7 @@ h4 {
 .social-button a{
   flex: 1;
   font-size: 15px;
-  color: #252525.0;
+  color: #252525;
   text-align: center;
   transform: translateX(-100%);
   opacity: 0;
